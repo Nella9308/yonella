@@ -19,27 +19,35 @@
 <body>
     <div class="weather-app">
         <header>
-            <form>
-                <input type="seaarch" placeholder="Enter  City.." required />
-                <input type="submit" value="search" />
+            <form class="search-form">
+                <input type="seaarch" placeholder="Enter  City.." required class="search-form-input" />
+                <input type="submit" value="search" class="search-form-button" />
             </form>
         </header>
         <main>
-            <div>
-                <h1> Durban </h1>
-                <p>
-                    Tuesday 14:52, overcast clouds
-                    <br />
-                    Humidity: 81%, Wind: 7.2km/h
-                </p>
-                <div>🌥 12°C </div>
+            <div class="weather-app-data">
+                <div>
+                    <h1 class="weather-app-city"> Durban </h1>
+                    <p class="weather-app-details">
+                        Tuesday 14:52, overcast clouds
+                        <br />
+                        Humidity:<strong>81%
+                        </strong>, Wind: <strong>7.2km/h</strong>
+                    </p>
+                </div>
+                <div class="weather-app-temperature-container">
+                    <div class="weather-app-icon">🌥</div>
+                    <div class="weather-app-value">12</div>
+                    <div class="weather-app-unit">°C</div>
+                </div>
+
             </div>
         </main>
-        <footers> Coded by
+        <footer> Coded by
             <a href="https://github.com/Nella9308" target="_blank"> Yonela Tshikitsha</a> code hosted on
             <a href="https://github.com/Nella9308/yonella" target="blank"> GitHub</a> website hosted
             <a href="https://yonella-weather-app.netlify.app/" target="blank"> on Netfly</a>
-        </footers>
+        </footer>
     </div>
 </body>
 
