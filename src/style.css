@@ -76,20 +76,24 @@ main {
 .weather-app-value {
     color: #212121;
     font-size: 80px;
-    font-weight: 700;
     line-height: 1;
+    font-weight: 700;
     margin-left: 10px;
 }
 
 .weather-app-icon {
-    font-size: 55px;
-    margin-top: 12px;
+    width: 88px;
+    height: 88px;
 }
 
 .weather-app-unit {
     font-size: 28px;
-    font-weight: 400;
+    margin-top: 16px;
     line-height: 1;
+    font-weight: 400;
+    position: relative;
+
+
 
 }
 
